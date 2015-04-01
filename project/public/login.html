@@ -1,0 +1,58 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>My Project</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="skeleton.css">
+      <link rel="stylesheet" href="custom.css">
+
+
+    </head>
+
+    <div class="container" id="forms" style="padding 30px; background-color: #E1E1E1; padding: 10px; border-radius: 4px; margin: 5px auto 0">
+      <h6 class="docs-header">Forms</h6>
+      <p>Plese fill out all the info to sign in!</p>
+      <div class="docs-example docs-example-forms">
+        <form action="/profile/edit" method="post">
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width" type="email" name="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+            </div>
+            <div class="six columns">
+              <label for="gender">Gender</label>
+              <input style="margin: 5px 5px 5px 1px" type="radio" name="sex">Male
+              <input style="margin: 5px 5px 5px 1px"type="radio" name="sex">Female
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="six columns">
+              <label for="FirstName">First Name</label>
+              <input class="text" type="firstname" placeholder="David">
+
+            </div>
+
+            <div class="six columns">
+              <label for="FirstName">Last Name</label>
+              <input class="text" type="lastname" placeholder="Yoon">
+            </div>
+          </div>
+
+          </div>
+
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Dave &hellip;" id="exampleMessage"></textarea>
+          <label class="example-send-yourself-copy">
+            <input type="checkbox">
+            <span class="label-body">Send a copy to yourself</span>
+          </label>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    </body>
+
+    
