@@ -1,0 +1,30 @@
+    .defined-box {
+      background-color: pink; 
+      border: 1px solid;
+      border-radius: 2px;
+    }
+
+    .reduce-padding {
+      padding: 2px;
+    }
+
+
+    .fixed-header {
+      background-color: blue;
+      border: 1px solid;
+      clear: both;
+      text-align: center;
+    }
+
+    .container-width {
+      width: 99%;
+    }
+
+    .blog-body {
+      border: 1px solid black;
+    }
+
+    .blog-box {
+      height: 400px;
+      border: 1px solid black;
+    }
