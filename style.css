@@ -1,0 +1,42 @@
+header {
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 18px;
+  margin: 2px;
+
+}
+
+p {
+  color: blue;
+  border-color: Yellow;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-decoration: underline;
+  line-height: 150%;
+
+
+}
+aside {
+  margin: 2px;
+}
+
+aside div {
+  text-align: center;
+}
+
+.widget {
+    background-color: pink;
+    border: solid 3px green;
+    border-radius: 5%;
+}
+
+.favorite-color {
+  border: outset 6px purple;
+}
+article {
+  margin: 2px ;
+  width: 300px;
+}
+section header {
+  margin-bottom: 10px;
+}
